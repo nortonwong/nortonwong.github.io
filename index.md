@@ -8,6 +8,7 @@ title: '<main>'
 - [es proposals](https://github.com/tc39/proposals)
 - [babel](https://babeljs.io/repl/)
 - [emojipedia](https://emojipedia.org)
+- [wayback](https://web.archive.org/)
 
 ### ♟️
 - [flexbox](https://flexboxfroggy.com/)
