@@ -20,6 +20,7 @@ title: '<main>'
 - [media types](https://www.iana.org/assignments/media-types/media-types.xhtml)
 - [incompleteness](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems)
 - [Object.defineProperty](http://2ality.com/2012/08/property-definition-assignment.html)
+- [openapi](https://swagger.io/specification/)
 
 ### 🎵
 - "[hamantha](https://www.youtube.com/watch?v=pOljw0z5asI)", jack stauber
