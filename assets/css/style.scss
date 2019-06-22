@@ -1,7 +1,8 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import "fonts";
+@import "rouge-github";
 
 :root {
   --dark-blue: rgb(112, 146, 192);
