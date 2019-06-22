@@ -46,11 +46,9 @@ h3, h4, h5, h6 {
 a {
   color:#267CB9;
   text-decoration:none;
-}
-
-a:hover, a:focus {
-  color:#069;
-  font-weight: bold;
+  &:hover, &:focus {
+    color:#509;
+  }
 }
 
 a small {
@@ -62,11 +60,6 @@ a small {
 
 a:hover small {
   color:#777;
-}
-
-.wrapper {
-  width:860px;
-  margin:0 auto;
 }
 
 blockquote {
@@ -113,10 +106,18 @@ img {
   max-width:100%;
 }
 
+body {
+  display: grid;
+  grid-template-columns: 1fr 270px 500px 1fr;
+  grid-template-rows: auto max-content;
+  grid-template-areas: 
+    ". header main ."
+    ". footer footer .";
+  grid-gap: 50px 50px;
+}
+
 header {
-  width:270px;
-  float:left;
-  position:fixed;
+  grid-area: header;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -126,9 +127,7 @@ strong {
 }
 
 section {
-  width:500px;
-  float:right;
-  padding-bottom:50px;
+  grid-area: section;
 }
 
 small {
@@ -143,21 +142,12 @@ hr {
 }
 
 footer {
-  width:270px;
-  float:left;
-  position:fixed;
-  bottom:50px;
+  grid-area: footer;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
 @media print, screen and (max-width: 960px) {
-  div.wrapper {
-    width:auto;
-    margin:0;
-  }
-
   header, section, footer {
-    float:none;
     position:static;
     width:auto;
   }
