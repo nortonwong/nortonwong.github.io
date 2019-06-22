@@ -16,6 +16,30 @@ body {
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
+  display: grid;
+  grid-template-columns: 1fr 270px 500px 1fr;
+  grid-template-rows: auto max-content;
+  grid-template-areas: 
+    ". header main ."
+    ". footer footer .";
+  grid-gap: 50px 50px;
+}
+
+header {
+  grid-area: header;
+  -webkit-font-smoothing:subpixel-antialiased;
+}
+
+section {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
+header, footer {
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,17 +73,15 @@ a {
   &:hover, &:focus {
     color:#509;
   }
-}
-
-a small {
-  font-size:11px;
-  color:#777;
-  margin-top:-0.3em;
-  display:block;
-}
-
-a:hover small {
-  color:#777;
+  & small {
+    font-size:11px;
+    color:#777;
+    margin-top:-0.3em;
+    display:block;
+  }
+  &:hover small {
+    color:#777;
+  }
 }
 
 blockquote {
@@ -106,28 +128,9 @@ img {
   max-width:100%;
 }
 
-body {
-  display: grid;
-  grid-template-columns: 1fr 270px 500px 1fr;
-  grid-template-rows: auto max-content;
-  grid-template-areas: 
-    ". header main ."
-    ". footer footer .";
-  grid-gap: 50px 50px;
-}
-
-header {
-  grid-area: header;
-  -webkit-font-smoothing:subpixel-antialiased;
-}
-
 strong {
   color:#222;
   font-weight:700;
-}
-
-section {
-  grid-area: section;
 }
 
 small {
@@ -139,11 +142,6 @@ hr {
   background:#e5e5e5;
   height:1px;
   margin:0 0 20px;
-}
-
-footer {
-  grid-area: footer;
-  -webkit-font-smoothing:subpixel-antialiased;
 }
 
 @media print, screen and (max-width: 960px) {
