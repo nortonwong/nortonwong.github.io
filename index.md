@@ -14,14 +14,20 @@ title: '<main>'
 - [flexbox](https://flexboxfroggy.com/)
 - [grid](https://cssgridgarden.com/)
 - [sunrise](https://codepen.io/davidkpiano/pen/VmMWZW)
+- [sort](https://imgur.com/gallery/GD5gi)
 
 ### 🤖
 - [timestamps](https://xml2rfc.tools.ietf.org/public/rfc/html/rfc3339.html#anchor14)
 - [HTTP status codes](https://tools.ietf.org/html/rfc7231#section-6)
 - [media types](https://www.iana.org/assignments/media-types/media-types.xhtml)
-- [incompleteness](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems)
-- [Object.defineProperty](http://2ality.com/2012/08/property-definition-assignment.html)
+- [history](https://diveintohtml5.info/history.html)
+- [userChrome.css](https://www.userchrome.org/what-is-userchrome-css.html)
+- [Object.defineProperty()](http://2ality.com/2012/08/property-definition-assignment.html)
+- [guice](https://github.com/google/guice/wiki/BindingResolution)
 - [openapi](https://swagger.io/specification/)
+
+### 💭
+- [incompleteness](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems)
 
 ### 🎵
 - "[hamantha](https://www.youtube.com/watch?v=pOljw0z5asI)", jack stauber
