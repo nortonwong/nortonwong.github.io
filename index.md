@@ -10,6 +10,11 @@ title: '<main>'
 - [emojipedia](https://emojipedia.org)
 - [wayback](https://web.archive.org/)
 
+### 📋
+- [css tricks](https://css-tricks.com/)
+- [history](https://diveintohtml5.info/history.html)
+- [userChrome.css](https://www.userchrome.org/what-is-userchrome-css.html)
+
 ### ♟️
 - [flexbox](https://flexboxfroggy.com/)
 - [grid](https://cssgridgarden.com/)
@@ -20,8 +25,6 @@ title: '<main>'
 - [timestamps](https://xml2rfc.tools.ietf.org/public/rfc/html/rfc3339.html#anchor14)
 - [HTTP status codes](https://tools.ietf.org/html/rfc7231#section-6)
 - [media types](https://www.iana.org/assignments/media-types/media-types.xhtml)
-- [history](https://diveintohtml5.info/history.html)
-- [userChrome.css](https://www.userchrome.org/what-is-userchrome-css.html)
 - [Object.defineProperty()](http://2ality.com/2012/08/property-definition-assignment.html)
 - [guice](https://github.com/google/guice/wiki/BindingResolution)
 - [openapi](https://swagger.io/specification/)
