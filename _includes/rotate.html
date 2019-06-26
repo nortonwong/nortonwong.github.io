@@ -22,7 +22,7 @@
   document.querySelectorAll('[data-rotate]').forEach(e => {
     e.addEventListener('click', (event) => {
       const data = event.target.dataset;
-      data.rotate = (Number(rotate) + 1) % 4;
+      data.rotate = (Number(data.rotate) + 1) % 4;
     });
   });
 </script>
