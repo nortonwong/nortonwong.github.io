@@ -1,0 +1,28 @@
+<style>
+  [data-rotate] {
+    --rotate: 0;
+    transition: rotate 1s cubic-bezier(0, 0.27, 0.33, 0.99);
+    transform: rotate(var(--rotate));
+  }
+
+  [data-rotate=1] {
+    --rotate: 90;
+  }
+  
+  [data-rotate=2] {
+    --rotate: 180;
+  }
+  
+  [data-rotate=3] {
+    --rotate: 270;
+  }
+</style>
+
+<script>
+  document.querySelectorAll('[data-rotate]').forEach(e => {
+    e.addEventListener('click', (event) => {
+      const data = event.target.dataset;
+      data.rotate = (Number(rotate) + 1) % 4;
+    });
+  });
+</script>
