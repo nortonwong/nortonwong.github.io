@@ -36,6 +36,6 @@ title: '<main>'
 - "[hamantha](https://www.youtube.com/watch?v=pOljw0z5asI)", jack stauber
 - "[going outside](https://www.youtube.com/watch?v=ONALSgxYq7k)", mothcub
 
-{% include rotate.html }
+{% include rotate.html %}
 
 ### ~
