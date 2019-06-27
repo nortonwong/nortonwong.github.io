@@ -154,6 +154,11 @@ hr {
 @media print, screen and (max-width: 720px) {
   body {
     word-wrap:break-word;
+    grid-template-columns: 1fr minmax(200px, 500px) 1fr;
+    grid-template-areas:
+      ". header ."
+      ". main ."
+      ". footer .";
   }
 
   header {
