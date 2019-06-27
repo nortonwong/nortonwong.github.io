@@ -25,6 +25,7 @@ title: '<main>'
 - [timestamps](https://xml2rfc.tools.ietf.org/public/rfc/html/rfc3339.html#anchor14)
 - [HTTP status codes](https://tools.ietf.org/html/rfc7231#section-6)
 - [media types](https://www.iana.org/assignments/media-types/media-types.xhtml)
+- [ssl](https://badssl.com/)
 - [Object.defineProperty()](http://2ality.com/2012/08/property-definition-assignment.html)
 - [guice](https://github.com/google/guice/wiki/BindingResolution)
 - [openapi](https://swagger.io/specification/)
@@ -35,7 +36,3 @@ title: '<main>'
 ### 🎵
 - "[hamantha](https://www.youtube.com/watch?v=pOljw0z5asI)", jack stauber
 - "[going outside](https://www.youtube.com/watch?v=ONALSgxYq7k)", mothcub
-
-{% include rotate.html %}
-
-### ~
