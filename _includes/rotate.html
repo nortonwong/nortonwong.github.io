@@ -1,20 +1,24 @@
 <style>
   [data-rotate] {
-    --rotate: 0;
-    transition: rotate 1s cubic-bezier(0, 0.27, 0.33, 0.99);
+    --rotate: 0deg;
+    transition: transform 1s ease-in-out
     transform: rotate(var(--rotate));
   }
 
   [data-rotate=1] {
-    --rotate: 90;
+    --rotate: 90deg;
   }
   
   [data-rotate=2] {
-    --rotate: 180;
+    --rotate: 180deg;
   }
   
   [data-rotate=3] {
-    --rotate: 270;
+    --rotate: 270deg;
+  }
+  
+  [data-rotate=4] {
+    --rotate: 360deg;
   }
 </style>
 
@@ -22,7 +26,7 @@
   document.querySelectorAll('[data-rotate]').forEach(e => {
     e.addEventListener('click', (event) => {
       const data = event.target.dataset;
-      data.rotate = (Number(data.rotate) + 1) % 4;
+      data.rotate = (Number(data.rotate) + 1) % 5;
     });
   });
 </script>
