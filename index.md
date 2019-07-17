@@ -7,7 +7,6 @@ title: '<main>'
 - [caniuse](https://caniuse.com)
 - [es proposals](https://github.com/tc39/proposals)
 - [babel](https://babeljs.io/repl/)
-- [compat table](http://kangax.github.io/compat-table/es5/)
 - [emojipedia](https://emojipedia.org)
 - [wayback](https://web.archive.org/)
 
@@ -15,6 +14,8 @@ title: '<main>'
 - [css tricks](https://css-tricks.com/)
 - [history](https://diveintohtml5.info/history.html)
 - [userChrome.css](https://www.userchrome.org/what-is-userchrome-css.html)
+- [css modules](https://github.com/css-modules/postcss-modules)
+- [compat table](http://kangax.github.io/compat-table/es5/)
 
 ### ♟️
 - [flexbox](https://flexboxfroggy.com/)
