@@ -15,7 +15,7 @@ title: '<main>'
 - [history](https://diveintohtml5.info/history.html)
 - [userChrome.css](https://www.userchrome.org/what-is-userchrome-css.html)
 - [css modules](https://github.com/css-modules/postcss-modules)
-- [compat table](http://kangax.github.io/compat-table/es5/)
+- [es compat table](http://kangax.github.io/compat-table/es5/)
 
 ### ♟️
 - [flexbox](https://flexboxfroggy.com/)
